@@ -103,7 +103,8 @@ body {
 
     .hlavicka {
         height: 480px;
-        width: 1558px;
+        width: 1024px;
+        background-size: cover;
     }
 
     .hlavicka hr {
@@ -115,18 +116,18 @@ body {
     }
 
     .titulek {
-        font-size: 70px;
+        font-size: 60px;
     }
 
     .perex {
         text-align: center;
         padding-left: 240px;
         padding-right: 240px;
-        font-size: large;
+        font-size: inherit;
     }
 
     .autor {
-        font-size: large;
+        font-size: inherit;
     }
 
 
@@ -136,7 +137,7 @@ body {
 @media (min-width: 1440px) {
     .hlavicka {
         height: 485px;
-        width: 1640px;
+        width: 1440px;
     }
 
     .hlavicka hr {
@@ -160,6 +161,29 @@ body {
 
     .autor {
         font-size: large;
+    }
+}
+
+/*4K*/
+@media (min-width: 2560px) {
+    .hlavicka {
+        height: 560px;
+        width: 2560px;
+    }
+
+    .titulek {
+        font-size: 90px;
+    }
+
+    .perex {
+        text-align: center;
+        padding-left: 240px;
+        padding-right: 240px;
+        font-size: 25px;
+    }
+
+    .autor {
+        font-size: 20px;
     }
 }
 
@@ -362,7 +386,7 @@ strong {
         border: 1px solid #ccccc8;
         box-shadow: 1px 1px 10px 10px #ccccc8;
         background-color: white;
-        margin-left: 30%;
+        margin-left: 3%;
         /* margin-right: auto;*/
     }
 
@@ -429,14 +453,14 @@ strong {
 
     .obsah-co .popisek {
         position: absolute;
-        right: -200px;
+        right: 72px;
         margin-top: -85px;
         color: white;
     }
 
     .popisek {
         position: absolute;
-        right: -200px;
+        right: 72px;
         margin-top: -50px;
         color: white;
     }
@@ -460,7 +484,7 @@ strong {
         border: 1px solid #ccccc8;
         box-shadow: 1px 1px 10px 10px #ccccc8;
         background-color: white;
-        margin-left: 23%;
+        margin-left: 16%;
         /* margin-right: auto;*/
     }
 
@@ -527,14 +551,14 @@ strong {
 
     .obsah-co .popisek {
         position: absolute;
-        right: 190px;
+        right: 289px;
         margin-top: -85px;
         color: white;
     }
 
     .popisek {
         position: absolute;
-        right: 190px;
+        right: 280px;
         margin-top: -50px;
         color: white;
     }
@@ -672,7 +696,7 @@ h2 {
         background-image: none;
         margin-top: 0px;
         padding-left: 35px;
-        width: 1558px;
+        width: 1024px;
     }
 }
 
@@ -683,5 +707,6 @@ h2 {
         background-image: none;
         margin-top: 0px;
         padding-left: 240px;
+        width: 1024px;
     }
 }
